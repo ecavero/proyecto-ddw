@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+
+    font-family: 'Rajdhani', sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff
+}
+
+header {
+    color: #212529;
+    font-family: 'Rajdhani', sans-serif;
+    padding: 0px 20px;
+    width: 100%;
+    height: 100%;
+    -webkit-text-size-adjust: 100%
+}
+
+div{
+    box-sizing: border-box;
+}
+
+img{
+    vertical-align: middle;
+    border-style: none;
+    overflow-clip-margin: content-box;
+    overflow: clip;
+}
+
+li{
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+
+}
+
+p{
+    margin-top: 0;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+    list-style: none;
+
+}
+
+h6{
+
+    margin-block-start: -1.33em;
+    margin-block-end: 2.33em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+h1{
+    font-weight: 700;
+    text-transform: uppercase;
+    font-size: 66px;
+    line-height: 72px;
+}
+
+/* Class*/
+
+
+.banner_completo{
+    background-color: #353956;
+}
+
+.menu_cabecera{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+    display: block;
+
+}
+
+.barra_inicial{
+
+}
+
+.barra_derecha{
+
+    position: relative;
+    padding: 42px 0;
+    z-index: 1;
+    justify-content: flex-start;
+    display: flex;
+    align-items: center;
+}
+
+.imagen{
+    margin-left: 0;
+    margin-right: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+.logo{
+    margin-bottom: 0!important;
+    margin: 0 0 1rem;
+    
+}
+
+.logo0{
+    max-width: 100%;
+    height: auto;
+}
+
+.boton{
+    display: none;
+}
+
+.contacto{
+    display: flex!important;
+    flex-basis: auto;
+    align-items: center;
+}
+.lista{
+    flex-direction: row;
+    align-items: center;
+    display: inherit;
+    padding-left: 37px;
+    margin-bottom: 0;
+    list-style: none;
+    margin-top: 0;
+}
+
+.listainicio{
+    padding: 30px ;
+}
+
+.img_contacto{
+    margin-left: 50px;
+    
+
+}
+
+.img_contacto1{
+    height: 55px;
+    width: 55px;
+    line-height: 55px;
+    background: #fff;
+    border-radius: 100px;
+    text-align: center;
+    float: left;
+    transition: all 0.3s ease-in-out;
+
+}
+
+.img_contacto2{
+    max-width: 100%;
+    height: 80%; /* aquí se varió de auto a 80% con la finalidad de encajar la imagen de llamada */
+
+}
+
+.texto_contacto{
+    padding-left: 67px;
+    padding-top: 0;   
+}
+
+.texto_contacto1{
+    margin-bottom: 0px;
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 500;
+}
+
+.texto_contacto2{
+    font-size: 18px;
+    line-height: 26px;
+    color: #fff;
+    font-weight: 700;
+    display: inline-block;
+}
+
+.cabecera2{
+    padding: 100px 95px 280px;
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: auto;
+
+}
+
+.caja_contenido{
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+.caja_fila{
+    display: flex;
+    flex-wrap: wrap;
+    margin-right: -15px;
+    margin-left: -15px;
+}
+
+.caja_fila_1{
+    opacity: 1;
+    transform: translateZ(0);
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    max-width: 55%;
+}
+
+.caja_fila2{
+    opacity: 1;
+    transform: translateZ(0);
+}
+
+.lista_iconos{
+    left: -96px;
+    top: -50px;
+    position: absolute;
+    padding-left: 0;
+    margin-top: 0px;
+    margin-bottom: 1rem;
+
+}
+
+.logos{
+    font-size: 20px;
+    margin-top: 2px;
+    border-radius: 100px;
+    text-align: center;
+    width: 32px;
+    height: 32px;
+    line-height: 32px;
+    display: inline-block;
+    
+}
+
+.listafav{
+    padding: 8px;
+}
+
+.banner_bajo1{
+    position: absolute;
+    display: block;
+    top: -75px;
+    left: 18px;
+    margin-bottom: 0;
+    
+}
+
+.texto_blanco{
+    margin-bottom: 18px;
+    padding-left: 88px;
+    color: #fff;
+    letter-spacing: 3.0px;
+
+
+}
+
+.texto_blanco1{
+    margin-bottom: 18px;
+    padding-left: 0px;
+    color: #fff;
+    letter-spacing: 3.0px;
+
+
+}
+
+h6.texto_blanco{    
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+    display: block;
+}
+
+h1.texto_blanco1{
+    margin-bottom: 14px;
+    color: #fff;
+
+}
+
+.botonesbanner{
+    background: #fa6220;
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+    border-radius: 30px;
+    padding: 10px 10px 10px 15px;
+    text-align: center;
+    display: inline-block;
+    transition: all 0.3s ease-in-out;
+    margin-right: 10px;
+    color: #fff;
+    margin-top: -5px;
+
+}
+
+.banner_derecha{
+    flex: 0 0 58.333333%;
+    max-width: 58.333333%;
+    position: relative;
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.img_bannerderecha{
+    right: 0;
+    top: -84px;
+    position: absolute;
+    z-index: 1;
+    margin-bottom: 0;
+    margin: 0 0 1rem;
+}
+
+.img_bannerderecha1{
+    width: 350px;
+    border-radius: 200px 200px 0 200px;
+    position: absolute;
+    margin-top: -40px;
+}
