@@ -75,6 +75,12 @@ h1{
     color: white;
     background-color: #010521;
 }
+
+#noticias {
+        color: black;
+        background-color: white;
+}
+
 /* Class*/
 
 .contenedor {
