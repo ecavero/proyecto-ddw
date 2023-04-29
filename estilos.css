@@ -1,0 +1,20 @@
+#contactos {
+        color: white;
+        background-color: #010521;
+}
+
+.contenedor {
+        max-width: 60%;
+        margin-left: auto;
+        margin-right: auto;
+}
+
+.fila {
+        display: flex;
+        flex-direction: row;
+}
+
+.columna {
+        flex-basis: 0;
+        flex-grow: 1;
+}
