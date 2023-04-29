@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -72,8 +73,29 @@ h1{
     line-height: 72px;
 }
 
+/* ID*/
+
+#contactos {
+    color: white;
+    background-color: #010521;
+}
 /* Class*/
 
+.contenedor {
+    max-width: 60%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fila {
+    display: flex;
+    flex-direction: row;
+}
+
+.columna {
+    flex-basis: 0;
+    flex-grow: 1;
+}
 
 .banner_completo{
     background-color: #353956;
