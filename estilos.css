@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Rajdhani:wght@300;400;500;600;700&display=swap');
 
 * {
@@ -110,10 +109,6 @@ h1{
     margin-right: auto;
     margin-left: auto;
     display: block;
-
-}
-
-.barra_inicial{
 
 }
 
@@ -239,10 +234,6 @@ h1{
     padding-right: 15px;
     padding-left: 15px;
     max-width: 55%;
-}
-
-.caja_fila2{
-    
 }
 
 .lista_iconos{
@@ -421,5 +412,240 @@ h1.texto_blanco1{
 }
 
 #ofrecemos {
+    background-color:#fff;
+}
+/* Vacio */
+.vacio {
+    height: 300px;
+    background-color: #353956;
+}
+/*************************** Servicios *************************/
+.servicios{
+    position: relative;
     background-color: #fff;
+    padding: 80px 10px 80px 10px;
+}
+.servicios h2{
+    font-size: 45px;
+    line-height: 1;
+}
+.servicios .container-servicios{
+    max-width: 1199px;
+    margin: auto;
+    display: flex;
+}
+.servicios .wrapper-left,
+.servicios .wrapper-right{
+    flex: 1;
+    padding: 20px;
+}
+.servicios .decoracion-bg-inferior{
+    position: absolute;
+    bottom: 0;
+    right: 5%;
+}
+.servicios .decoracion-bg-superior{
+    position: absolute;
+    top: 0;
+    left: 5%;
+}
+
+/* left */
+.servicios .wrapper-left{
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    flex: 1.2;
+    z-index: 2;
+}
+.servicios .wrapper-left .item-wrapper-left{
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 0 20px #f1f1f1;
+    margin: 10px;
+    border-radius: 10px;
+    background-color: #fff;
+}
+.servicios .wrapper-left .item-wrapper-left h3{
+    line-height: 1;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+.servicios .wrapper-left .item-wrapper-left > img{
+    display: block;
+    margin: auto;
+}
+.servicios .wrapper-left .img-decoration-left{
+    position: absolute;
+    top:72%;
+    left: -4%;
+    z-index: -1;
+}
+
+/* Right */
+.servicios .wrapper-right{
+    position: relative;
+    flex: 1;
+}
+.servicios .wrapper-right-2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.servicios .wrapper-right h4{
+    color: rgb(240,134,49);
+    font-size: 30px;
+    font-weight: 500;
+}
+.servicios .wrapper-right p{
+    padding-top: 10px;
+}
+.servicios .wrapper-right a{
+    display: block;
+    background-color: rgb(240,134,49);
+    color: #fff;
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+.servicios .wrapper-right .img-decoration{
+    text-align: end;
+}
+
+.servicios .wrapper-right .lista-servicios {
+    padding-top: 20px;
+}
+.servicios .wrapper-right .lista-servicios li{
+    color: #000;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
+/*********************** Logros **********************/
+
+.logros{
+    background-color: #fff;
+    padding: 80px 10px 80px 10px;
+    position: relative;
+}
+.logros h2{
+    font-size: 45px;
+    line-height: 1;
+}
+.logros .container-logros{
+    max-width: 1199px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+}
+.logros .wrapper-left,
+.logros .wrapper-right{
+    padding: 20px;
+}
+.logros .wrapper-left{
+    flex: 1;
+}
+.logros .wrapper-right{
+    flex: 1.3;
+}
+.logros .decoracion-bg-inferior{
+    position: absolute;
+    bottom: 0;
+    left: 5%;
+}
+.logros .decoracion-bg-superior{
+    position: absolute;
+    top: 0;
+    right: 5%;
+}
+/* right */
+
+.logros .wrapper-right{
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+.logros .item-wrapper-right{
+    position: relative;
+    padding: 20px;
+    width: 40%;
+    box-shadow: 0 0 20px #f3f3f3;
+    margin: 10px;
+    border-radius: 50%;
+    background-color: #fff;
+    text-align: center;
+    height: 210px;
+    width: 210px;
+}
+.logros .item-wrapper-right h3{
+    font-size: 30px;
+}
+.logros .item-wrapper-right p{
+    line-height: 1;
+}
+.logros .item-wrapper-right:nth-child(1){
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logros .item-wrapper-right:nth-child(2){
+    position: absolute;
+    top: 5%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logros .item-wrapper-right:nth-child(3){
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translateY(-50%);
+}
+.logros .item-wrapper-right:nth-child(4){
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.logros .item-wrapper-right .centered{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/* Left */
+.logros .wrapper-left{
+    position: relative;
+}
+.logros .wrapper-left h4{
+    color: rgb(240,134,49);
+    font-size: 30px;
+    font-weight: 480;
+}
+.logros .wrapper-left p{
+    padding-top: 10px;
+}
+.logros .wrapper-left a{
+    display: block;
+    background-color: rgb(240,134,49);
+    color: #fff;
+    width: 250px;
+    padding: 10px 20px;
+    border-radius: 50px;
+    text-decoration: none;
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bolder;
+}
+.logros .wrapper-left .img-decoration{
+    position: absolute;
+    left: -120px;
+}
+.logros .wrapper-left-2{
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
 }
