@@ -75,9 +75,34 @@ h1{
     background-color: #010521;
 }
 
+#contactos li {
+    color: white;
+    font-size: 20px;
+    font-weight: lighter;
+}
+
 #noticias {
         color: black;
         background-color: white;
+}
+
+#noticias h4 {
+    color: rgb(240,134,49);
+    font-size: 30px;
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+#noticias h2{
+    font-size: 45px;
+    line-height: 1;
+    text-transform: uppercase;
+}
+
+#noticias h3 {
+    line-height: 1;
+    font-size: 25px;
+    padding-bottom: 10px;
 }
 
 /* Class*/
