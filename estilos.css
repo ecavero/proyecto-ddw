@@ -92,7 +92,7 @@ h1{
     background-color: var(--color-footer);
 }
 .contactos{
-    padding: 40px 0 40px 0;
+    padding: 80px 0 80px 0;
 }
 #contactos li {
     color: var(--color-white);
@@ -115,9 +115,10 @@ h1{
 
 #noticias {
         position: relative;
-        top: 380px;
+        top: 200px;
         color: var(--color-black);
         background-color: var(--color-white);
+        padding: 80px 0 80px 0;
 }
 .noticias .contenedor{
     padding: 40px 0 40px 0;
@@ -129,6 +130,7 @@ h1{
 }
 .noticias p{
     font-family: 'Exo', sans-serif;
+    padding: 20px 0 10px 0;
 }
 #noticias h4 {
     color: var(--color-primary);
@@ -151,7 +153,13 @@ h1{
 .noticias img{
     border-radius: 20px;
     box-shadow: 0 0 10px var(--color-box-shadow);
+    transition: filter 0.6s;
 }
+.noticias img:hover{
+    filter: sepia(100%);
+}
+
+
 /* Class*/
 
 .contenedor {
@@ -285,7 +293,7 @@ h1{
 }
 
 .cabecera2{
-    padding: 100px 95px 280px;
+    padding: 100px 95px 100px;
     position: relative;
     width: 100%;
     height: auto;
@@ -322,7 +330,11 @@ h1{
 .caja_fila2 div {
         margin-left: -95px;
 }
-
+.caja_fila2 > div{
+    color: #fff;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
 .caja_fila2 div i {
         font-size: 2rem;
 }
@@ -419,7 +431,7 @@ h1.texto_blanco1{
 
 .img_bannerderecha{
     right: 0;
-    top: -84px;
+    top: -250px;
     position: absolute;
     margin-bottom: 0;
     margin: 0 0 1rem;
@@ -473,7 +485,6 @@ h1.texto_blanco1{
 /**************************** About us  ********************/
 
 .aboutus{
-    height: 200px;
     width: 60%;
     margin: auto;
     margin-top: 30px;
@@ -483,6 +494,7 @@ h1.texto_blanco1{
     padding: 20px;
 }
 .aboutus img{
+    width: 80%;
     border-radius: 20px;
     box-shadow: 0 0 10px var(--color-body-header);
 }
@@ -490,6 +502,8 @@ h1.texto_blanco1{
 .aboutus p{
     color: var(--color-white);
 }
+
+
 .img-container{
     width: 50%;
     margin: auto;
@@ -500,8 +514,14 @@ h1.texto_blanco1{
     width: 90%;
 }
 .text-container{
+    position: relative;
     width: 50%;
     padding-right: 50px;
+}
+.text-container > div{
+    position: inherit;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .text-container h1{
     color: var(--color-text);
@@ -526,11 +546,15 @@ h1.texto_blanco1{
 .ofrecemos img{
     border-radius: 20px;
     box-shadow: 0 0 10px var(--color-box-shadow);
+    filter: blur(2px);
+    transition: filter 0.6s;
+}
+.ofrecemos img:hover{
+    filter: blur(0);
 }
 /*************************** Servicios *************************/
 .servicios{
     position: relative;
-    top: 380px;
     background-color: var(--color-white);
     padding: 80px 10px 80px 10px;
 }
@@ -640,7 +664,6 @@ h1.texto_blanco1{
     background-color: var(--color-white);
     padding: 80px 10px 80px 10px;
     position: relative;
-    top: 380px;
 }
 .logros h2{
     font-size: 45px;
