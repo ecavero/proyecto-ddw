@@ -91,6 +91,10 @@ h1{
     line-height: 72px;
 }
 
+a {
+        text-decoration: none
+}
+
 /* ID*/
 
 #contactos {
@@ -165,6 +169,17 @@ h1{
 }
 .noticias img:hover{
     filter: sepia(100%);
+}
+
+#ubicacion h4{
+        padding-left: 10px;
+        padding-top: 10px;
+        color: var(--color-white);        
+}
+
+#aqui {
+        background-color: var(--color-white);
+        text-align: center;
 }
 
 
